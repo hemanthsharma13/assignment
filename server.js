@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-    'mongodb+srv://hemanth:hemanth123@cluster0.pi4b7.mongodb.net/worker?retryWrites=true&w=majority',
+    '',
   {
     useNewUrlParser: true,
     useFindAndModify: true,
